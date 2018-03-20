@@ -1,1 +1,27 @@
 /* you can add any styles you think could improve user's experience */
+.ProductList{
+  padding: 20px;
+  display: inline-block;
+  text-align: center;
+  background:#ededed;
+  margin-left:2em;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+.ProductList:hover{
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.ProductList button{
+  padding: 10px;
+  color: white;
+  background: blue;
+  font-size: 14px;
+  border: none;
+}
+
+.ProductList button:hover{
+  color: blue;
+  background: white;
+}
